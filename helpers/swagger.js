@@ -219,7 +219,7 @@ const options = {
         description: "Local server",
       },
       {
-        url: "https://tmshop-server.onrender.com/",
+        url: "https://tmshop-server-main.onrender.com/",
         description: "Live server",
       },
     ],
