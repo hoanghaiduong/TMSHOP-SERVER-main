@@ -26,8 +26,8 @@ const createOrder = async (req, res) => {
         payment_method: "paypal",
       },
       redirect_urls: {
-        return_url: "https://tmshop-client-main.vercel.app/shop/home/shop/paypal-return",
-        cancel_url: "https://tmshop-client-main.vercel.app/shop/home/shop/paypal-cancel",
+        return_url: "https://tmshop-client-main.vercel.app/shop/paypal-return",
+        cancel_url: "https://tmshop-client-main.vercel.app/shop/paypal-cancel",
       },
       transactions: [
         {
